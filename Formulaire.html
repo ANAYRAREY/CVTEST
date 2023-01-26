@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Hwebsite </title>
+ <meta chartset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ </style>
+</head>
+<body>
+<p> <h4> <font color= 'blue'> bonjour le monde </font> </h4> </p>
+<hr>
+<tr> <td> <image src='V.jpg' alt='' height='480px' width='600px'/> <image src='Auriant.jpg' alt='' height='480px' width='600px'/> </td> </table> 
+<hr>
+<p> <h3> <font color="red"> Welcome Here : Bienvenue sur notre forum
+<br> We like to talk about everything yet nothing </font> </h3> </p>
+<p> <h3> nous sommes le 19/05/19 and we are wacthing BTS ENJOY </h3> </p>
+<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/7C2z4GqqS5E?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode es</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div></iframe>
+<hr>
+<p> <h4> <font color="yellow"> veuillez vous connecter ici : </font> </h4> </p>
+<form method='post' action=' '>
+  <label>NOM</label> <br>
+  <input type='text' name='NOM' size='40' required=''/>
+  <br>
+  <label> PRENOM</label> <br>
+  <input type='text' name='PRENOM' size='40' required=''/> 
+  <br>
+  <label> AGE </label> <br>
+  <input type='text' name='age_user'>
+  <input type='submit' name='btok' value='envoyer'/><br>
+  <label>EMAIL</label> <br>
+  <input type='text' name='EMAIL' sie='45' placeholder='xxx@ddd.com' required=''/><br>
+  <label>PASSWORD</label><br>
+  <input type='PASSWORD' name='PASSWORD' size=45 placeholder='votre mot de passe' required=''/>
+  <input type='submit' name='ok' value='ok'/><br>
+  <form/>
+  <?php 
+  if(isset($_POST['btok'])){
+    $age='30';
+  if($_POST['age_user'] < $age)
+    echo'vous etes trop jeune';
+  else{ 
+    echo'bienvenue';
+    }
+    }
+ ?>
+  <?php
+   $timestamp1=1261774471; 
+   echo date('d/m/Y',$timestamp1);
+   ?>
+   <br>
+   <?php
+  echo date("d/m/Y");
+  echo'<br>';
+  echo "Il est ". date ("H:i:s")  
+  ?>
